@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/deadLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/dead_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/deadSet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deadLabel"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:visibility="invisible" >
+
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/deadSet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deadSet1"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false" 
+        android:visibility="invisible" >
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/deadSet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deadSet2"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+         >
+
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/deadSet4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deadSet3"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:visibility="invisible" >
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/deadSet5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deadSet4"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:visibility="invisible" >
+
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <Button
+        android:id="@+id/confirmButtonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deadSet5"
+        android:layout_centerHorizontal="true"
+        android:text="Exit" />
+
+</RelativeLayout>

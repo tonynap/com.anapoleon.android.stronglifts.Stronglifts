@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Stronglifts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_stronglifts">Stronglifts</string>
+    <string name="slTitle">Stronglifts Tracker</string>
+    <string name="slButton">5x5 Workout Tracker</string>
+    <string name="menu_delete">Delete Workout</string>
+    <string name="menu_insert">Workout A</string>
+    <string name="myName">Created by Anthony Napoleon</string>
+    <string name="no_workouts">No workouts added yet, press menu to select workout</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_workout">Edit Workout</string>
+    <string name="dialog_set_number">Set</string> 
+  	<string name="dialog_cancel">Cancel</string> 
+  	<string name="dialog_picker_title">Choose a number</string>
+  	<string name="squat_label">Squats : 45</string>
+  	<string name="weight_label">Weight, in pounds.</string>
+  	<string name="press_label">Overhead Press: 45</string>
+  	<string name="dead_label">Deadlift: 45</string>
+  	<string name="bench_label">Bench: 45</string>
+  	<string name="menu_insertB">Workout B</string>
+  	<string name="row_label">Barbell Rows: 45</string> 
+    
+
+</resources>

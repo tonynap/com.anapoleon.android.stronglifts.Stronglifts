@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	 <style name="NumberPickerInputText" parent="@android:style/TextAppearance.Large.Inverse">
+  <item name="android:textColor">@android:color/primary_text_light</item> 
+  <item name="android:textSize">30sp</item> 
+  </style>
+ 
+  <style name="navbar_button">
+  <item name="android:layout_width">0dp</item> 
+  <item name="android:layout_height">wrap_content</item> 
+  <item name="android:button">@null</item> 
+  <item name="android:background">@drawable/navbar_backgroundselector</item> 
+  <item name="android:gravity">center_horizontal</item> 
+  <item name="android:layout_weight">1</item> 
+  <item name="android:textSize">12dp</item> 
+  </style>
+	 
+
+</resources>

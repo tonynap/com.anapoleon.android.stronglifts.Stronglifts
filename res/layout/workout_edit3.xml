@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radgroup1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <include
+            android:id="@+id/tab1Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/tab1layout" />
+
+        <include
+            android:id="@+id/tab2Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/tab2layout" />
+
+        <include
+            android:id="@+id/tab3Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/tab3layout" />
+    </ViewFlipper>
+
+    <RadioGroup
+        android:id="@+id/radgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/navbar_background" >
+
+        <RadioButton
+            android:id="@+id/rad1"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Squats" />
+
+        <RadioButton
+            android:id="@+id/rad2"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Bench Press" />
+
+        <RadioButton
+            android:id="@+id/rad3"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Rows" />
+
+    </RadioGroup>
+
+</RelativeLayout>

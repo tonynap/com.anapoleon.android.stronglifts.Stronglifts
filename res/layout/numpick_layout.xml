@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/WholeScreen">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		
+		android:gravity="center"
+		android:id="@+id/RateTitle" />
+
+	<com.anapoleon.android.stronglifts.NumberPicker
+	    android:id="@+id/SpinRate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="0dp"
+	    android:layout_toRightOf="@+id/RateTitle"
+	    android:gravity="center" >
+	</com.anapoleon.android.stronglifts.NumberPicker>
+
+</RelativeLayout>

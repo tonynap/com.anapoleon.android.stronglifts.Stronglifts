@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/viewFlipperB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radgroupB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <include
+            android:id="@+id/tab1bContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/tab1blayout" />
+
+        <include
+            android:id="@+id/tab2bContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/tab2blayout" />
+
+        <include
+            android:id="@+id/tab3bContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/tab3blayout" />
+    </ViewFlipper>
+
+    <RadioGroup
+        android:id="@+id/radgroupB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/navbar_background"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rad1b"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Squat" />
+
+        <RadioButton
+            android:id="@+id/rad2b"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overhead Press" />
+
+        <RadioButton
+            android:id="@+id/rad3b"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadlift" />
+
+    </RadioGroup>
+
+</RelativeLayout>

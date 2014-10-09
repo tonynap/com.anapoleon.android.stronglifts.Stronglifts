@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/squatLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/squat_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/squatSet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/squatLabel"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false" >
+
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/squatSet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/squatSet1"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false" >
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/squatSet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/squatSet2"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false" >
+
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/squatSet4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/squatSet3"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false" >
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <com.anapoleon.android.stronglifts.NumberPicker
+        android:id="@+id/squatSet5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/squatSet4"
+        android:layout_centerHorizontal="true"
+        vertical="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false" >
+    </com.anapoleon.android.stronglifts.NumberPicker>
+
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/squatSet5"
+        android:layout_centerHorizontal="true"
+        android:text="Next" />
+
+</RelativeLayout>
