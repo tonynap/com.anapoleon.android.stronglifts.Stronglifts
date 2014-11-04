@@ -304,7 +304,7 @@ public class WorkoutEditA extends Activity {
 				// TODO Auto-generated method stub
 
 				alert.setTitle("Squats");
-				alert.setMessage("Message");
+				alert.setMessage("Enter Weight");
 
 				//set an EditText view to get user input
 				final EditText input = new EditText(aMethod());
@@ -346,7 +346,7 @@ public class WorkoutEditA extends Activity {
 				// TODO Auto-generated method stub
 
 				alert.setTitle("Bench Press");
-				alert.setMessage("Change Weight");
+				alert.setMessage("Enter Weight");
 
 				//set an EditText view to get user input
 				final EditText input = new EditText(aMethod());
@@ -388,7 +388,7 @@ public class WorkoutEditA extends Activity {
 				// TODO Auto-generated method stub
 
 				alert.setTitle("Barbell Row");
-				alert.setMessage("Change Weight");
+				alert.setMessage("Enter Weight");
 
 				//set an EditText view to get user input
 				final EditText input = new EditText(aMethod());

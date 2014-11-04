@@ -88,6 +88,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rowSet5"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:text="Exit" />
 
 </RelativeLayout>
